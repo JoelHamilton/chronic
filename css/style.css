@@ -1,0 +1,71 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family:sans-serif;
+}
+
+
+/* ------ header styling -------*/
+
+header{
+    width:100%;
+    height:100vh;
+    background-image:url(../image/dom-hill-nimElTcTNyY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:top center;
+}
+
+
+nav{
+ display: flex;
+ align-items:center;
+ justify-content: space-between;
+ padding:2% 8%;
+}
+
+.logo{
+color:white;
+}
+
+nav ul{
+list-style: none;
+}
+
+nav ul li{
+display: inline-block;
+margin:10px 30px;
+color: white;
+}
+
+
+.content{
+margin-top:10%;
+padding-left:8%;
+color:white;
+}
+
+.content h2{
+font-size: 18px;
+}
+
+.content h1{
+font-size:60px;
+margin:18px 0px;
+}
+
+.content p{
+font-size:18px;
+}
+
+.btn{
+font-size:20px;
+color:white;
+margin-top:20px;
+background-color:blue;
+padding:10px 30px;
+border:none;
+border-radius:6px;
+text-transform:capitalize;
+}
